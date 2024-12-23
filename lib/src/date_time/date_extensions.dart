@@ -1,4 +1,4 @@
-import 'package:intl/intl.dart';
+// import 'package:intl/intl.dart';
 
 extension DateComparisonExtension on DateTime {
   bool isSameDate(DateTime other) {
@@ -105,9 +105,6 @@ extension DateComparisonExtension on DateTime {
         millisecond, microsecond);
   }
 
-  String format({required String pattern}) {
-    return DateFormat(pattern).format(this);
-  }
 
   /// Shortcut for obtaining the current date and time.
   DateTime now() => DateTime.now();
