@@ -25,8 +25,7 @@ start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+To use this package add getx and 
 
 ```dart
 const like = 'sample';

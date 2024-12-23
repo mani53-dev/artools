@@ -1,7 +1,7 @@
 name: artools
 description: "A new Flutter project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/mani53-dev/artools
 
 environment:
   sdk: ^3.5.3
