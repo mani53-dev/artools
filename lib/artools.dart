@@ -1,6 +1,7 @@
 library ARTools;
 
 export 'src/artools.dart';
+export 'src/model.dart';
 
 export 'src/collection/list_extension.dart';
 
