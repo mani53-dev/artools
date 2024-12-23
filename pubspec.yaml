@@ -1,7 +1,8 @@
 name: artools
-description: "A new Flutter project."
-version: 0.0.1
+description: "A Dart package that provides handy extensions and helper functions, for a smooth and efficient coding experience."
+version: 0.0.1+1
 homepage: https://github.com/mani53-dev/artools
+issue_tracker: https://github.com/mani53-dev/artools/issues
 
 environment:
   sdk: ^3.5.3
