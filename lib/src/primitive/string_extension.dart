@@ -81,7 +81,6 @@ extension StringExtensions on String {
         .join('');
   }
 
-  /// Checks if the string is a strong password.
   /// A strong password must:
   /// - Be at least 8 characters long
   /// - Contain at least one uppercase letter
