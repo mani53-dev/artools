@@ -51,7 +51,6 @@ extension StringExtensions on String {
         .join('');
   }
 
-  /// Converts the string to snake case.
   String toSnakeCase() {
     return replaceAllMapped(
             RegExp(r'[A-Z]'), (match) => '_${match.group(0)!.toLowerCase()}')
