@@ -17,7 +17,7 @@ A Dart package that provides handy extensions and helper functions, for a smooth
 Add dependency to your `pubspec.yaml` file & run pub get
 ```yaml
 dependencies:
-  artools: ^0.0.1
+  artools: ^0.0.3
 ```
 
 And import package into your class file

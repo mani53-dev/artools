@@ -35,6 +35,14 @@ extension StringExtensions on String {
     return trimmed == trimmed.split('').reversed.join('');
   }
 
+  String capitalizeEachWord() {
+    return split(' ')
+        .map((word) => word.isNotEmpty
+        ? word[0].toUpperCase() + word.substring(1).toLowerCase()
+        : word)
+        .join(' ');
+  }
+
   String toCamelCase() {
     return split(' ')
         .map((word) => word.isEmpty
