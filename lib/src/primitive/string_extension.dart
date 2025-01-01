@@ -94,7 +94,7 @@ extension StringExtensions on String {
   }
 
   /// Checks if the string is a proper name.
-  ///
+
   /// A proper name must:
   /// - Not be empty.
   /// - Start with a capital letter.
