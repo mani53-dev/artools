@@ -10,18 +10,20 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      # Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
-      - name: Set up Dart
-        uses: dart-lang/setup-dart@v1
+
+      # Set up Flutter
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
         with:
-          sdk: 'stable'
-#      - name: Set up Flutter
-#        uses: subosito/flutter-action@v2
-#        with:
-#          flutter-version: 'stable'
-#      - name: Install dependencies
-#        run: dart pub get
+          flutter-version: 'stable' # Use the stable Flutter version
+
+      # Install dependencies
+      - name: Install dependencies
+        run: flutter pub get
+
       - name: Publish to pub.dev
         env:
           PUB_TOKEN: ${{ secrets.PUB_DEV_TOKEN }}
