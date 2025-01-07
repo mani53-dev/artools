@@ -17,7 +17,7 @@ jobs:
         with:
           sdk: 'stable'
       - name: Install dependencies
-        run: dart pub get
+        run: flutter pub get
       - name: Publish to pub.dev
         env:
           PUB_TOKEN: ${{ secrets.PUB_DEV_TOKEN }}
