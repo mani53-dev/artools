@@ -82,6 +82,25 @@ extension ClickableGestureDetectorExtension on Widget {
     );
   }
 
+  Widget withShadow({
+    Color color = Colors.black,
+    double blurRadius = 10.0,
+    Offset offset = const Offset(2, 2),
+  }) {
+    return Container(
+      decoration: BoxDecoration(
+        boxShadow: [
+          BoxShadow(
+            color: color,
+            blurRadius: blurRadius,
+            offset: offset,
+          ),
+        ],
+      ),
+      child: this,
+    );
+  }
+
   Widget rotated(double angle) {
     return Transform.rotate(
       angle: angle,
@@ -109,4 +128,8 @@ extension ClickableGestureDetectorExtension on Widget {
       child: this,
     );
   }
+}
+
+extension BuildContextExtensions on BuildContext {
+  bool get isKeyboardOpen => MediaQuery.of(this).viewInsets.bottom > 0;
 }
