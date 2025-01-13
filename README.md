@@ -2,6 +2,8 @@
 
 A Dart package that provides handy extensions and helper functions, for a smooth and efficient coding experience.
 
+Visit [EXTENSIONS.md](https://github.com/mani53-dev/artools/blob/main/DOC_EXTENSION.md) for a complete list of all the available extensions.
+
 ## Types of Extensions
 - Date Handling <br>
 - String Utilities <br>
@@ -69,7 +71,5 @@ int Duration.inYears;  // Returns the number of whole years spanned by this [Dur
 bool Duration.isInYears;  // Returns `true` if the [Duration] is equal to or longer than one year.
 int Duration.absoluteSeconds;  // Returns the number of seconds remaining after accounting for whole minutes.
 ```
-
-Visit [EXTENSIONS.md](https://github.com/mani53-dev/artools/blob/main/DOC_EXTENSION.md) for a complete list of all the available extensions.
 
 >Made with ❤️ by Abdur Rehman.
