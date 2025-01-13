@@ -19,7 +19,7 @@ Visit [EXTENSIONS.md](https://github.com/mani53-dev/artools/blob/main/DOC_EXTENS
 Add dependency to your `pubspec.yaml` file & run pub get
 ```yaml
 dependencies:
-  artools: ^0.0.3+2
+  artools: ^0.0.3+3
 ```
 
 And import package into your class file
