@@ -72,4 +72,4 @@ int Duration.absoluteSeconds;  // Returns the number of seconds remaining after 
 
 Visit [EXTENSIONS.md](https://github.com/mani53-dev/artools/blob/main/DOC_EXTENSION.md) for a complete list of all the available extensions.
 
->Made with ❤️ by Abdur Rehman from Affine Sol.
+>Made with ❤️ by Abdur Rehman.
