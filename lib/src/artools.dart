@@ -1,3 +1,5 @@
+import 'package:flutter/foundation.dart';
+
 class ARTools {
   DateTime? currentBackPressTime;
   Duration refreshDuration = const Duration(minutes: 3);
@@ -28,5 +30,12 @@ class ARTools {
   static bool isValidPhoneNumber(String phoneNumber) {
     final RegExp regExp = RegExp(r'^\+[0-9]+\d*$');
     return regExp.hasMatch(phoneNumber);
+  }
+}
+
+void printD(dynamic value) {
+  if (kDebugMode) {
+    print(value.runtimeType);
+    print(value);
   }
 }
