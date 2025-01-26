@@ -35,7 +35,6 @@ class ARTools {
 
 void printD(dynamic value) {
   if (kDebugMode) {
-    print(value.runtimeType);
     print(value);
   }
 }
